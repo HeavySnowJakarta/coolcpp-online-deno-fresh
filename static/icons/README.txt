@@ -1,0 +1,1 @@
+Thanks to Feather Icons for the high-quality icons.

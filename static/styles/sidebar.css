@@ -1,0 +1,136 @@
+.sidebar{
+    background-color: var(--sidebar-bg);
+    color: var(--sidebar-color);
+    position: fixed;
+    top: 0;
+    right: -250px;
+    height: 100%;
+    transition: right 0.3s;
+    border-left-color: #cccccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar-open{
+    background-color: var(--sidebar-bg);
+    color: var(--sidebar-color);
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 500px;
+    transition: right 0.3s;
+    z-index: 1000;
+    border-left-color: #808080;
+    border-left-width: 0px;
+    border-left-style: solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.close-button{
+    position: absolute;
+    top: 28px;
+    right: 40px;
+}
+
+.formitem{
+    font-size: 1.2rem;
+    left: 0;
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+select{
+    font-size: 1.1rem;
+    width: 200px;
+    height: 37px;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.3);
+    border-radius: 5px;
+    border-width: 0px;
+    border-color: #f4f4f4;
+    background-color: var(--sidebar-bg);
+    color: var(--sidebar-color)
+}
+
+.statement{
+    font-size: 0.8rem
+}
+
+input[type="text"]{
+    font-size: 1.1rem;
+    width: 200px;
+    height: 37px;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.3);
+    border-radius: 5px;
+    border-width: 0px;
+    color: var(--sidebar-color);
+    background-color: var(--sidebar-bg);
+}
+
+/* TODO: Adjust the style of number fields. */
+input[type="number"]{
+    font-size: 1.1rem;
+    width: 80px;
+    height: 37px;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.3);
+    border-radius: 5px;
+    border-width: 0px;
+    color: var(--sidebar-color);
+    background-color: var(--sidebar-bg);
+}
+
+.switch{
+    display: absolute;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+}
+
+.switch input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch-slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--switch-bg);
+    transition: 0.4s;
+    border-radius: 34px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.switch-slider:before{
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 24px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .switch-slider{
+    background-color: green;
+}
+
+input:checked + .switch-slider:before{
+    transform: translateX(30px);
+}

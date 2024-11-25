@@ -1,0 +1,52 @@
+/* This file is generated automatically by `generate_font_css.py`. */
+
+@font-face {
+    font-family: '0xproto';
+    src: url('../fonts/0xproto.ttf');
+}
+
+@font-face {
+    font-family: 'cascadia-mono';
+    src: url('../fonts/cascadia-mono.ttf');
+}
+
+@font-face {
+    font-family: 'code-new-roman';
+    src: url('../fonts/code-new-roman.otf');
+}
+
+@font-face {
+    font-family: 'dejavu-sans-mono';
+    src: url('../fonts/dejavu-sans-mono.ttf');
+}
+
+@font-face {
+    font-family: 'fira-code';
+    src: url('../fonts/fira-code.ttf');
+}
+
+@font-face {
+    font-family: 'iosevka';
+    src: url('../fonts/iosevka.ttf');
+}
+
+@font-face {
+    font-family: 'jetbrains-mono';
+    src: url('../fonts/jetbrains-mono.ttf');
+}
+
+@font-face {
+    font-family: 'sauce-code-pro';
+    src: url('../fonts/sauce-code-pro.ttf');
+}
+
+@font-face {
+    font-family: 'ubuntu-mono';
+    src: url('../fonts/ubuntu-mono.ttf');
+}
+
+@font-face {
+    font-family: 'zed-mono';
+    src: url('../fonts/zed-mono.ttf');
+}
+

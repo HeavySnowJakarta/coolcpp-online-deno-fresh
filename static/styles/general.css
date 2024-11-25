@@ -1,0 +1,39 @@
+/* The style of the layout of the editor. */
+
+.toolbar, .sidebar{
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.dark{
+    --toolbar-bg: #333;
+    --toolbar-color: #fff;
+    --sidebar-bg: #222;
+    --sidebar-color: #fff;
+    --switch-bg: #555;
+}
+
+.light{
+    --toolbar-bg: #f4f4f4;
+    --toolbar-color: #333;
+    --sidebar-bg: #f4f4f4;
+    --sidebar-color: #333;
+    --switch-bg: #cccccc;
+}
+
+.icon-button{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: var(--sidebar-color);
+    align-items: center;
+    pointer-events: auto;
+}
+
+.button-icon{
+    width: 45%;
+    pointer-events: none;
+}

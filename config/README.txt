@@ -1,0 +1,1 @@
+This directory stores some configuration files for the project.
